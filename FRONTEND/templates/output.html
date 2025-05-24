@@ -1,0 +1,58 @@
+{% load static %}
+
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <title>Enhanced Fusion of Deep Learning Models For predicting And Explaining Ischemic Stroke</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="{% static 'layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .bgded {
+            background-image: url('{% static "images/06.avif" %}');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="bgded">
+        <div class="content">
+            <h3 class="heading">Based on given patient details the patient have..</h3>
+            <footer>
+                <a class="btn" href="#">{{ out }}</a>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

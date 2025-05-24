@@ -1,0 +1,100 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore distribution and build folders
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Ignore database files
+*.sqlite3
+db.sqlite3
+
+# Ignore model files and large datasets
+*.pkl
+*.csv
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python test cache
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore Django local settings
+local_settings.py
+
+# Ignore IDE project files
+*.idea/
+*.iml
+
+# Ignore backup files
+*~
+
+# Ignore node_modules if any (for frontend)
+node_modules/
+
+# Ignore Python packaging files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore pyenv
+.python-version
+
+# Ignore pipenv
+Pipfile.lock
+
+# Ignore celery beat schedule file
+celerybeat-schedule
+
+# Ignore celery logs
+celery.log
+
+# Ignore coverage reports
+.coverage
+.coverage.*
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore pyre type checker
+.pyre/
+
+# Ignore pytype static type analyzer
+.pytype/
+
+# Ignore Cython debug symbols
+cython_debug/
+
+# Ignore frontend database files
+FRONTEND/db.sqlite3
+
+
