@@ -24,6 +24,7 @@ To build a robust, accurate, and interpretable prediction model for ischemic str
 🔹 lstm.pkl                        # Trained LSTM model
 🔹 cnn_lstm.pkl                    # Trained CNN-LSTM hybrid model
 🔹 requirements.txt                # Python dependencies
+🔹 stroke-prediction-deep-fusion.pdf.pdf  # Full project documentation
 ```
 
 ---
@@ -115,6 +116,12 @@ Access at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 * **K. Arun Kumar** – Frontend Developer
 * **D. Anand Kumar** – Backend Developer
 * **M. Jaswanth** – Data Research & Analysis
+
+---
+
+## 📄 Project Documentation
+
+A detailed write-up of this project is available in the file [`stroke-prediction-deep-fusion.pdf`](./stroke-prediction-deep-fusion.pdf.pdf). It includes the system overview, model architectures, preprocessing steps, project structure, implementation logic, and testing considerations.
 
 ---
 
