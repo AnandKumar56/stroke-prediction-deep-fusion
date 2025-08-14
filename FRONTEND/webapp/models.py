@@ -11,9 +11,9 @@ import joblib
 import numpy as np
 
 
-cnn = pickle.load(open('cnn.pkl', 'rb'))
-lstm = pickle.load(open('lstm.pkl', 'rb'))
-cnn_lstm = pickle.load(open('cnn_lstm.pkl', 'rb'))
+cnn = pickle.load(open('./cnn.pkl', 'rb'))
+lstm = pickle.load(open('./lstm.pkl', 'rb'))
+cnn_lstm = pickle.load(open('./cnn_lstm.pkl', 'rb'))
 
 def predict(lst, algo):
     test = np.array(lst)
