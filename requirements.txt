@@ -1,12 +1,31 @@
+# Core Framework
 Django==3.0.8
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-Pillow
-joblib
-tensorflow
-keras
-djangorestframework
-sequential
+djangorestframework==3.15.1
+
+# Data Science & ML
+numpy==2.4.1
+pandas==2.3.3
+scikit-learn==1.8.0
+scipy==1.17.0
+
+# Deep Learning
+tensorflow==2.20.0
+keras==3.13.1
+
+# Visualization
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Image Processing
+Pillow==12.1.0
+
+# Utilities
+joblib==1.5.3
+sequential==1.0.0
+
+# Dependencies
+asgiref==3.11.0
+sqlparse==0.5.5
+pytz==2025.2
+python-dateutil==2.9.0.post0
+requests==2.32.5
